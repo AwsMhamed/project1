@@ -29,7 +29,7 @@ public class UserApp {
 
         lst.sort((u1,u2)-> u1.getEmail().compareTo(u2.getEmail()));
         for(User user : lst){
-            System.out.println(user.getEmail() + " kk " + user.getPass());
+            System.out.println(user.getEmail() + " lk " + user.getPass());
         }
     }
 
